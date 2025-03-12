@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        THE FONT TEST
+    </head>
+    <body>
+        <b>BOLD FONT</b><br>
+        <strong>STRONG FONT</strong><br>
+        <i>Italic Font</i><br>
+        <em>EMark? font</em><br>
+        <mark>highlighted FONT</mark><br>
+        <b><strong><em><i><mark>ALL COMBINED?</mark></i></em></strong></b><br>
+    </body>
+</html>
