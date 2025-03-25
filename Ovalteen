@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1> Navigational Links</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#posts">Posts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <article>
+                    <h2>How to Start Fishing for Beginners</h2>
+                    <p>To go fishing, You need a standard rod, Spinning reel is recommended.
+                        Then Go buy bait or lure hooks, Or just attach bait to hooks. Tie knot on the 
+                        reel to connect it. Go open the reel and connect the line and roll it until ideal length.
+                        Place it and screw it onto the rod. Make sure it is on the bottom, Open the screw on the side of the reel to switch hands.
+                    Most people prefer left side. some prefer right. Then, put 2 stoppers and go put a bobber on it. Tie
+                    the hook to the knot or your lure hook, You can go fishing.
+                    </p>
+                </article>
+                <aside>
+                    <p>After fishing experience, Try to learn a baitcaster, Baitcasters have 2 spinning parts
+                        and are easier to cast, But it's downside is it tangles slightly more if cast too far or cast too fast.
+                        It lives up to it's name, Casting bait. This makes it an ideal choice for intermediate users.
+                        If not handled properly, may tangle very bad. Still same tying method to hook, Can lift more weight and can catch tuna if accompanied by 
+                        another person with a long sickle.
+                    </p>
+                </aside>
+            </section>
+            <figure>
+                <img src="Baitcaster.jpg"/>
+                <figcaption>Very well maintained Reel.</figcaption>
+            </figure>
+            <audio controls>
+                <source src="Casting baitcaster.mp3" type="audio/mp3">
+            </audio>
+            <video src="What happens if you do not place thumb on baitcaster..mp4" controls></video>
+            <embed src="SSpooler.gif"/>
+        
+        </main>
+        <footer>
+            <p>This is the end. Subscribe to our daily newsletter to read more.</p>
+        </footer>
+    </body>
+</html>
