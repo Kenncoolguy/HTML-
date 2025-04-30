@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                text-decoration: overline;
+                text-transform: Capitalize;
+
+            }
+            h2 {
+                text-decoration: line-through;
+                text-transform: uppercase;
+
+            }
+            h3{
+                 text-decoration: underline;
+                 text-transform:lowercase;
+            }
+            h4 {
+                text-decoration: underline overline;
+                text-transform: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>placeholder</h1>
+        <h2>placeholder</h2>
+        <h3>PLACEHOLDER</h3>
+        <h4>PLACEHOLDER</h4>
+    </body>
+</html>
