@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Box model example</title>
+        <style type="text/css">
+            .example1 {
+                width:220px;
+                background-color:yellow;
+                padding:0px 10px 20px 40px;
+                border:0px;
+                margin:0px;
+                float:left;
+            }
+            .example2{
+                width:220px;
+                background-color:limegreen;
+                border:5px solid darkgreen;
+                padding:80px;
+                margin: 60px 60px; 
+            }
+
+            .example3{
+                width:220px;
+                background-color: rgb(255, 0, 0);
+                border:5px solid limegreen;
+                padding:80px;
+                margin: 60px 60px; 
+            }
+
+            .example4{
+                width:220px;
+                background-color: rgb(0, 17, 255);
+                border:5px solid rgb(205, 50, 171);
+                padding:80px;
+                margin: 60px 60px; 
+            }
+            
+            .example5{
+                width:220px;
+                background-color: rgb(0, 17, 255);
+                border:5px solid rgb(148, 79, 14);
+                padding:80px;
+                margin: 60px 60px; 
+            }
+      
+        </style>
+        
+    </head>
+    <body>
+        <h1> Box Model Example</h1>
+        <hr>
+        <p class="example1">My Content Example 1</p>
+        <p class="example2">canno2n</p>
+        <p class="example3">Happy holidays</p>
+        <p class="example4">DONT TOUCH MY PIZZA</p>
+        <p class="example5">water</p>
+    </body>
+</html>
