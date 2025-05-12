@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> semantic </title>
+    </head>
+    <body>
+        <article>
+<h2>Frying pan</h2>
+<p>Frying Pans are used for cooking [ARTICLE]</p>
+</article>
+<section>
+<h1>WW2</h1>
+<p>WW2 is a deadly war in history</p>
+</section>
+    </body>
+</html>
