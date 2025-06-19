@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Javascript Variables</h1>
+        <p> Sum of 2 numbers</p>
+        <p id="result"></p>
+        <p>Difference of Two numbers</p>
+        <p id="result1"></p>
+
+        <script>
+            var num1 = 20;
+            var num2 = 45;
+            var sum = num1 + num2;
+            var difference = num1 = num2;
+            document.getElementById("result").innerHTML = "The Total sum Is:" + sum;
+            document.getElementById("result1").innerHTML = "The Total sum Is:" + difference;
+        </script>
+    </body>
+</html>
