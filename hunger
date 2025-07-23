@@ -1,0 +1,28 @@
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+  hobbies: ["reading", "coding", "traveling"]
+};
+
+
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+
+console.log("First Name:", person.firstName);
+console.log("Last Name:", person["lastName"]);
+console.log("Age:", person.age);
+console.log("Hobbies:", person.hobbies.join(", ")); // using join here too
+
+
+console.log("First Fruit:", fruits[0]);
+console.log("Second Fruit:", fruits[1]);
+
+
+console.log("All Fruits (joined):", fruits.join(" | "));
+
+let lastFruit = fruits.pop();
+console.log("Removed Fruit using pop():", lastFruit);
+
+
+console.log("Fruits after pop():", fruits.join(", "));
