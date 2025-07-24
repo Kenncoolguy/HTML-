@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class Inheritance Example</title>
+</head>
+<body>
+  <h1>Inheritance in JavaScript</h1>
+  <div id="output"></div>
+
+  <script>
+    // Base class
+    class Animal {
+      constructor(name, type) {
+        this.name = name;
+        this.type = type;
+      }
+
+      getDetails() {
+        return `${this.name} is a ${this.type}.`;
+      }
+
+      // Static method
+      static sound() {
+        return "Animals make sounds!";
+      }
+    }
+
+    // Derived class
+    class Dog extends Animal {
+      constructor(name, breed) {
+        super(name, "Dog");
+        this.breed = breed;
+      }
+
+      getDetails() {
+        return `${super.getDetails()} It is a ${this.breed}.`;
+      }
+    }
+
+    // Create an instance
+    const myDog = new Dog("Buddy", "Golden Retriever");
+
+    // Displaying in HTML
+    const outputDiv = document.getElementById("output");
+    outputDiv.innerHTML = `
+      <p>${myDog.getDetails()}</p>
+      <p>${Animal.sound()}</p>
+    `;
+  </script>
+</body>
+</html>
