@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Number Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #output {
+      margin-top: 15px;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Random Number Generator</h1>
+  <button onclick="generateRandomNumbers()">Generate</button>
+  <div id="output"></div>
+
+  <script>
+    function generateRandomNumbers() {
+      let outputDiv = document.getElementById("output");
+      outputDiv.innerHTML = ""; // Clear previous output
+
+      let count = 0;
+      while (count < 5) {  // Change this number to generate more or fewer numbers
+        let randomNumber = Math.floor(Math.random() * 100) + 1; // 1 to 100
+        outputDiv.innerHTML += `Random number ${count + 1}: ${randomNumber} <br>`;
+        count++;
+      }
+    }
+  </script>
+</body>
+</html>
